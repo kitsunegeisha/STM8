@@ -107,7 +107,7 @@ void main(void)
 	m_uLEDStus = 0;
 	
 	//MyCLK_DeInit();
-	
+	//big fix
 	CLK_Configuration();	// Configures clocks
 	GPIO_Configuration();	// Configures GPIOs
 	//TIM1_Configuration();	// Set Timer-1 as PWM output on CH3,CH4
