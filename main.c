@@ -1,4 +1,3 @@
-ls
 /********************************************************************************/
 /********************************************************************************/
 /*  File Purpose : The main file to configure the MCU Internal Resources		*/
@@ -102,7 +101,7 @@ uint16_t ADC_LDR[BUFFER_SIZE] = {0};
 
 const char* ssid     = "VSoffice";
 const char* password = "0000100001efg";
-
+//fuad
 void main(void)
 {
 	m_uLEDStus = 0;
@@ -144,7 +143,6 @@ void main(void)
 
 void LEDC(void)
 {
-	/*
 	//PC3
 	if(_100mSecFlag == TRUE)
 	{
@@ -168,18 +166,6 @@ void LEDC(void)
 			uTimeCnt3 = 0;
 		}
 	}
-	*/
-	if(_250mSecFlag == TRUE) //511111
-	{
-		_250mSecFlag = FALSE;
-		uTimeCnt3++;
-		if(uTimeCnt3 >= 5)//500ms11111
-		{
-			GPIO_WriteReverse(PIN_C5); 
-			uTimeCnt3 = 0;
-		}
-	}
-	
 	//PC6
 	if(_PC6flag == TRUE) //100ms flg
 	{
