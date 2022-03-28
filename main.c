@@ -106,6 +106,7 @@ void main(void)
 {
 	m_uLEDStus = 0;
 	//---feature 1
+	//comit 2
 	//MyCLK_DeInit();
 	
 	CLK_Configuration();	// Configures clocks
