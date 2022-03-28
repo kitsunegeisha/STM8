@@ -105,10 +105,10 @@ const char* password = "0000100001efg";
 void main(void)
 {
 	m_uLEDStus = 0;
-	//---feature 1
+	//---feature 1 
 	//comit 2
 	//MyCLK_DeInit();
-	
+	//comit 3
 	CLK_Configuration();	// Configures clocks
 	GPIO_Configuration();	// Configures GPIOs
 	//TIM1_Configuration();	// Set Timer-1 as PWM output on CH3,CH4
