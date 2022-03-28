@@ -105,7 +105,7 @@ const char* password = "0000100001efg";
 void main(void)
 {
 	m_uLEDStus = 0;
-	
+	//---feature 1
 	//MyCLK_DeInit();
 	
 	CLK_Configuration();	// Configures clocks
